@@ -1,4 +1,4 @@
-*OBS: para o funcionamento do sistema sem precisar de modificações, utilie-o no Netbeans!
+*OBS: para o funcionamento do sistema sem precisar de modificações, utilize-o no Netbeans!
 
 # SimplesLogin
 Este projeto foi criado a fim de auxiliar e ajudar novos desenvolvedores em Java.
