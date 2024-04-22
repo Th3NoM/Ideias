@@ -10,10 +10,12 @@ import java.util.Base64;
  */
 public class UsuarioControle {
     
-    Connection conn = new Conexao().conexao();
+    Connection conn = null;
     
     public ResultSet registrarUsuario(Usuario usuario) {
     
+        conn = new Conexao().conexaoDb();
+
         String nome, senha, email, sql;
         
         // instanciar as informações do usuário para depois poder inserir-las com o 'set'
@@ -52,6 +54,8 @@ public class UsuarioControle {
     
     public ResultSet autenticacao(Usuario usuario) {
     
+        conn = new Conexao().conexaoDb();
+
         String nome, senha,query;
 
         nome = usuario.getNome();
