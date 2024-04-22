@@ -8,7 +8,7 @@ public class Conexao {
     
     Connection conn = null;
     
-    public Connection conexao() throws SQLException {
+    public Connection conexaoDb() throws SQLException {
     
         String url, user, password;
         
